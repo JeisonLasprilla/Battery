@@ -53,20 +53,27 @@ public class Company{
     }
     
     public String showBatteriesInfo() {
-    }
-    
 
-	public double calculateUsefulPromLifeCost(){
-        int  = 0;
+        double n = 0;
         boolean end = false;
         for (int i = 0; i < MAX_BATTERIES && end != false; i++) {
             if (batteries[i] == null) {
                 end = true;
             } else {
-                ++;
+                if (batteries[i] instanceof RechargeableBattery){
+                    //Sdsaf
+
+                } else if{
+                    //fd
+                }
             }
         }
-		return 0.0;
-	}
+        return 
+    }
+    
+	public double calculateUsefulPromLifeCost(){
+        double n = 0;
+        return n;
+    }
 
 }
